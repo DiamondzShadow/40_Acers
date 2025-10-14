@@ -1,6 +1,6 @@
 const { Client } = require('pg');
 
-const DATABASE_URL = "postgresql://postgres.kkaidegysdobcmflffey:10tenThousand%24%24@aws-0-us-west-1.pooler.supabase.com:6543/postgres";
+const DATABASE_URL = "postgresql://postgres.kkaidegysdobcmflffey:10tenThousand100@aws-0-us-west-1.pooler.supabase.com:6543/postgres";
 
 async function testSupabase() {
   const client = new Client({ connectionString: DATABASE_URL });
