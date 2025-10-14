@@ -1,8 +1,8 @@
 const { Client } = require('pg');
 
 // Try both pooler and direct connection
-const POOLER_URL = "postgresql://postgres.kkaidegysdobcmflffey:10tenThousand100@aws-0-us-west-1.pooler.supabase.com:6543/postgres";
-const DIRECT_URL = "postgresql://postgres:10tenThousand100@db.kkaidegysdobcmflffey.supabase.co:5432/postgres";
+const POOLER_URL = "postgresql://postgres.kkaidegysdobcmflffey:TVDIHmRcKQXnn7q0@aws-0-us-west-1.pooler.supabase.com:6543/postgres";
+const DIRECT_URL = "postgresql://postgres:TVDIHmRcKQXnn7q0@db.kkaidegysdobcmflffey.supabase.co:5432/postgres";
 
 async function testConnection(url, name) {
   const client = new Client({ connectionString: url });
